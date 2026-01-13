@@ -1,0 +1,64 @@
+/* App container */
+.todo-app {
+  width: fit-content;
+  padding: 20px;
+  border-radius: 8px;
+  background: #f9f9f9;
+  font-family: sans-serif;
+}
+
+/* Input row */
+.todo-input {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+/* Input field */
+.todo-field {
+  padding: 8px 10px;
+  font-size: 14px;
+}
+
+/* Add button */
+.todo-btn {
+  padding: 8px 14px;
+  cursor: pointer;
+  border: none;
+  background: #222;
+  color: white;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+/* Todo list */
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Todo item */
+.todo-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  margin-bottom: 8px;
+  background: #eaeaea;
+  border-radius: 6px;
+  width: fit-content;
+}
+
+/* Todo text */
+.todo-text {
+  white-space: nowrap;
+}
+
+/* Delete button */
+.delete-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
